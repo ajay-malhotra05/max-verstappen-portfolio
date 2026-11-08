@@ -30,6 +30,40 @@ body {
   overflow-y: auto;
 }
 
+.site-footer {
+  padding: 34px 7% 32px;
+  border-top: 1px solid rgba(247, 247, 244, 0.1);
+  background: #08090b;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+  color: #777980;
+  font-family: "Barlow Condensed", Impact, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  line-height: 1.4;
+}
+
+.site-footer a {
+  color: #777980;
+  font-weight: 800;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #d0d1d3;
+}
+
+.site-footer a:focus-visible {
+  outline: 1px solid rgba(247, 247, 244, 0.5);
+  outline-offset: 4px;
+}
+
 .hero {
   position: relative;
   isolation: isolate;
